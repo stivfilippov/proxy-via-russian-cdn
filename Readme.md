@@ -183,15 +183,15 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
       "serverMaxHeaderBytes": 0,
       "uplinkHTTPMethod": "GET",
       "headers": {},
-      "scMinPostsIntervalMs": "",
+      "scMinPostsIntervalMs": "10",
       "uplinkChunkSize": 0,
       "noGRPCHeader": false,
       "xmux": {
         "maxConcurrency": "0",
-        "maxConnections": 2,
+        "maxConnections": 10,
         "cMaxReuseTimes": 0,
-        "hMaxRequestTimes": "100-200",
-        "hMaxReusableSecs": "300-600",
+        "hMaxRequestTimes": "900-1200",
+        "hMaxReusableSecs": "1800-3000",
         "hKeepAlivePeriod": 0
       },
       "enableXmux": true
